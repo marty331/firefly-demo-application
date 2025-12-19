@@ -5,18 +5,14 @@ Clone the repository and follow the instructions in this README.md file.
 ## Backend .env file
 Create a .env file in the /backend directory with the following content:
 
+```bash
 FIREFLY_SERVICES_CLIENT_ID=<your_client_id>
-
 FIREFLY_SERVICES_CLIENT_SECRET=<your_client_secret>
-
 SCOPES=openid, AdobeID, session, additional_info, firefly_api, ff_apis, read_organizations, creative_cloud, gnav, additional_info.projectedProductContext, additional_info.roles, additional_info.company, additional_info.ownerOrg, org.read, substance3d_api.jobs.create, profile, substance3d_api.spaces.create, email, creative_sdk
-
 AWS_ACCESS_KEY_ID=<your_access_key_id>
-
 AWS_SECRET_ACCESS_KEY=<your_secret_access_key>
-
 AWS_DEFAULT_REGION=<your_default_region>
-
+```
 
 ## Running the application
 This application is using Docker Compose to manage the backend and frontend services. Therefore to run to run the application, execute the following command:

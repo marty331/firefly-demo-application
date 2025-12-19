@@ -1,0 +1,15 @@
+# User-defined files
+.env
+
+# Generated files
+dist/
+node_modules/
+.zed/
+*.DS_Store
+
+# Temporary files
+*.tmp
+
+
+# Python cache
+__pycache__/
